@@ -3,7 +3,6 @@ import { SearchPage } from './search/search';
 import { SettingsPage } from './settings/settings';
 import { TabsPage } from './tabs/tabs';
 import { TutorialPage } from './tutorial/tutorial';
-import { MyDeputyPage } from './my-deputy/my-deputy';
 
 // The page the user lands on after opening the app and without a session
 export const FirstRunPage = TutorialPage;
@@ -16,4 +15,3 @@ export const MainPage = TabsPage;
 export const Tab1Root = ListMasterPage;
 export const Tab2Root = SearchPage;
 export const Tab3Root = SettingsPage;
-export const Tab4Root = MyDeputyPage;
